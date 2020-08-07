@@ -25,11 +25,11 @@ function setup() {
 
 	roof = new Roof(400,200,400,20);
 
-	bobObject1 = new Bob(280,400,25);
-	bobObject2 = new Bob(340,400,25);
-	bobObject3 = new Bob(400,400,25);
-	bobObject4 = new Bob(460,400,25);
-	bobObject5 = new Bob(520,400,25);
+	bobObject1 = new Bob(280,600,25);
+	bobObject2 = new Bob(340,600,25);
+	bobObject3 = new Bob(400,600,25);
+	bobObject4 = new Bob(460,600,25);
+	bobObject5 = new Bob(520,600,25);
 
 	rope1 = new Chain(bobObject1.body, roof.body, -100 , 0);
 	rope2 = new Chain(bobObject2.body, roof.body, -50 , 0);
